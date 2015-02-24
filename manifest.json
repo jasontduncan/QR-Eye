@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "QR Eye",
+  "description": "This extension converts the URI, currently displayed in the browser, into a QR code",
+  "version": "1.0",
+"permissions": [
+          "tabs"
+        ],
+  "browser_action": {
+    "default_icon": "qreye-icon.png",
+    "default_popup": "popup.html"
+  }
+}
